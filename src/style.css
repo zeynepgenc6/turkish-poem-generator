@@ -49,10 +49,11 @@ footer{
     margin: 0 auto;
     padding: 10px;
     border-radius: 30px;
-    position: fixed;
-    bottom: 0;
-    display: block;
+    text-align: center;
+;   position: fixed;
+bottom: 0;
     justify-content: center;
+    right: 25%;
     
 }
 .instructions{
