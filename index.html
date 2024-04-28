@@ -7,34 +7,54 @@
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
-    <header><h1>Turkish poem generator</h1></header>
-    <main>
-      <form>
-        <input type="text" placeholder="Enter the topic of the Turkish poem"  autofocus
-          required
-          autocomplete="off"/>
-        <input type="submit" />
-      </form>
-      <div>
-        İkimiz birden sevinebiliriz göğe bakalım
-        <br />
-        Şu kaçamak ışıklardan şu şeker kamışlarından
+    <div class="page-content">
+      <div class="menu">
+        <div class="dropdown">
+          <button class="dropbtn">Popular</button>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">Structured</button>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">Other</button>
+        </div>
+        <form>
+          <input 
+            type="text"
+            placeholder="Enter the topic of the Turkish poem"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button"/>
+        </form>
       </div>
-    </main>
-    <footer>
-      This AI project was coded by
-      <a href="https://github.com/zeynepgenc6" target="_blank">Zeynep GENC</a>
-      and is
-      <a
-        href="https://github.com/zeynepgenc6/turkish-poem-generator"
-        target="_blank"
-      >
-        open-sourced on GitHub</a
-      >
-      and is
-      <a href="" target="_blank">hosted on Netlify</a>.
-    </footer>
+      <header><h1>Turkish poem generator</h1></header>
 
+      <main>
+        
+        <div class="poem">
+          İkimiz birden sevinebiliriz göğe bakalım
+          <br />
+          Şu kaçamak ışıklardan şu şeker kamışlarından
+        </div>
+      </main>
+      <footer>
+        
+        This AI project was coded by
+        <a href="https://github.com/zeynepgenc6" target="_blank">Zeynep GENC</a>
+        and is
+        <a
+          href="https://github.com/zeynepgenc6/turkish-poem-generator"
+          target="_blank"
+        >
+          open-sourced on GitHub</a
+        >
+        and is
+        <a href="" target="_blank">hosted on Netlify</a>.
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>

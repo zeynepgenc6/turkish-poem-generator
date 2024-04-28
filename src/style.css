@@ -1,12 +1,96 @@
 body{
+    position: sticky;
+}
+.menu{
+    position: static;
+    display: flex;
+    justify-content: space-between;
+    background-color: #dfd3c3;
+    padding: 10px ;
+    margin: 0 auto;
+     border-radius: 30px;
     
+}
+.dropbtn{
+    font-size:18px;
+   border: thick double #f0ece2;
+   border-radius: 30px;
+    line-height: 1.5;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 header{
     padding: 8px;
     margin: 0 auto;
     display: block;
-    background-color: rgba(104, 223, 104, 0.762);
+    
+}
+.container{
+    margin: 0 auto;
 }
 h1{
+    margin: 0 auto;
+    padding: 7px;
+    color: #685454;
     text-align: center;
+    font-weight: 650;
+    font-size: 36px;
+    line-height: 1.5;
+    font-family:Arial, Helvetica, sans-serif;
+}
+button{
+    background-color: #dfd3c3;
+    border: 0;
+    
+    color:#685454 ;
+}
+footer{
+    background-color: #dfd3c3;
+    color: #685454;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 30px;
+    position: fixed;
+    bottom: 0;
+    display: block;
+    justify-content: center;
+    
+}
+.instructions{
+    padding: 7px 15px;
+    border-radius: 50px;
+    font-size: 12px;
+    line-height: 1.5;
+    background-color: #dfd3c3;
+    border: 2px solid#f0ece2 ;
+    color: #685454;
+    border: thick double #f0ece2;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.submit-button{
+     padding: 7px 15px;
+    border-radius: 50px;
+    font-size: 12px;
+    line-height: 1.5;
+    background-color: #dfd3c3;
+    border: 2px solid#f0ece2 ;
+    color: #685454;
+    border: thick double #f0ece2;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;;
+}
+.poem{
+    font-size: 15px;
+    background-color: #dfd3c3;
+    color: #685454;
+    padding: 15px;
+    border-radius: 30px;
+    line-height: 1.5;
+    font-weight: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    color: #f0ece2;
+}
+main{
+    display: block;
+    margin: 10px 100px;
 }
