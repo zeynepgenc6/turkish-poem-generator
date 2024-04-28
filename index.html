@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Turkish poem generator</title>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
@@ -18,7 +19,7 @@
         <div class="dropdown">
           <button class="dropbtn">Other</button>
         </div>
-        <form>
+        <form  id="poem-generator-form">
           <input 
             type="text"
             placeholder="Enter the topic of the Turkish poem"
@@ -34,10 +35,8 @@
 
       <main>
         
-        <div class="poem">
-          İkimiz birden sevinebiliriz göğe bakalım
-          <br />
-          Şu kaçamak ışıklardan şu şeker kamışlarından
+        <div class="poem" id="poem">
+          
         </div>
       </main>
       <footer>
