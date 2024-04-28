@@ -83,6 +83,7 @@ bottom: 0;
     background-color: #dfd3c3;
     color: #685454;
     padding: 15px;
+    border: thick double #f0ece2;
     border-radius: 30px;
     line-height: 1.5;
     font-weight: 150px;
