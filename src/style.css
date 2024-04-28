@@ -1,0 +1,12 @@
+body{
+    
+}
+header{
+    padding: 8px;
+    margin: 0 auto;
+    display: block;
+    background-color: rgba(104, 223, 104, 0.762);
+}
+h1{
+    text-align: center;
+}
