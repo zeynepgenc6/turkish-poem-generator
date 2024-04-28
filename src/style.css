@@ -1,5 +1,7 @@
 body{
     position: sticky;
+    background-image: url("https://www.webtekno.com/images/editor/default/0003/59/260b81ca4ab7ccf6420ffdb17e8e79846f5b5dd7.jpeg");
+    background-size:cover;
 }
 .menu{
     position: static;
@@ -57,9 +59,9 @@ bottom: 0;
     
 }
 .instructions{
-    padding: 7px 15px;
+    padding: 7px 30px;
     border-radius: 50px;
-    font-size: 12px;
+    font-size: 15px;
     line-height: 1.5;
     background-color: #dfd3c3;
     border: 2px solid#f0ece2 ;
@@ -68,9 +70,9 @@ bottom: 0;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .submit-button{
-     padding: 7px 15px;
+     padding: 7px 30px;
     border-radius: 50px;
-    font-size: 12px;
+    font-size: 15px;
     line-height: 1.5;
     background-color: #dfd3c3;
     border: 2px solid#f0ece2 ;
